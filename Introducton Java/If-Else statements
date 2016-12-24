@@ -15,7 +15,7 @@ public class Main {
              ans = "Not Weird";
          }
          
-         System.out.println(ans);
+        System.out.println(ans);
          
    }
 }
