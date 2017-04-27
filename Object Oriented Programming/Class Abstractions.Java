@@ -6,13 +6,11 @@ abstract class Book {
         return title;
     }
 }
-
 class MyBook extends Book {
     void setTitle(String s) {
       title=s;
     }
 }
-
 class Main{
     public static void main(String []args){
        // Books new_novels
