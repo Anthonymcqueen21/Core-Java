@@ -1,4 +1,3 @@
-
 import static java.lang.System.in;
 class Prime {
    boolean chk(int n) {
