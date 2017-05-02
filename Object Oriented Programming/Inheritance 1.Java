@@ -4,7 +4,6 @@ class Animal {
        System.out.println("I am walking");
    }
 }
-
 class Bird extends Animal
     {
     void fly()
