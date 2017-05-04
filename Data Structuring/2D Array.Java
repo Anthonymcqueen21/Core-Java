@@ -3,9 +3,7 @@ import java.util.*;
 import java.text.*;
 import java.math.*;
 import java.util.regex.*;
-
 public class Solution {
-     
       public static void main(String[] args) {
            Scanner sc = new Scanner(System.in);
            int[][] ar = new int[6][6];
@@ -15,7 +13,6 @@ public class Solution {
                   ar[i][j] = sc.nextInt();
               }
            }
-           
            for (i = 0; i < 4; i++) {
                for (j = 0; j < 4; j++) {
                    sum = ar[i][j]+ar[i][j+1]+ar[i][j+2]+ar[i+1][j+1]+ar[i+2][j]+ar[i+2][j+1]+ar[i+2][j+2];
