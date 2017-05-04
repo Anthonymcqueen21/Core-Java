@@ -1,7 +1,6 @@
 import java.util.ArrayDeque;
 import java.util.Queue;
 import java.util.Scanner;
-
 public class Solution {
     static boolean judge(int n, int m, int[] a) {
         Queue<Integer> queue = new ArrayDeque<Integer>();
@@ -21,7 +20,6 @@ public class Solution {
         }
         return false;
     }
-    
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = Integer.parseInt(sc.next());
