@@ -3,7 +3,6 @@ public class Main {
     public static void main(String[] args) {
          Scanner int = new Scanner(System.in);
          int n = in.nextInt();
-         
          String ans;
          if(n % 2 != 0) {
              ans = "Weird";
