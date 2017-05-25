@@ -5,7 +5,6 @@ public class Solution {
          String s = sc.nextLine();
          int start = sc.nextInt();
          int end = sc.nextInt();
-         
          System.out.println(S.substrig(start, end));
          sc.close();
      }
