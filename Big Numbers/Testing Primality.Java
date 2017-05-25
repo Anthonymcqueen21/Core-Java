@@ -1,6 +1,5 @@
 import java.math.BigInteger;
 import java.util.Scanner;
-
 public class Solution {
      private static final int CERTAINTY = 100;
      public static void main(String[] args) {
