@@ -1,7 +1,6 @@
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Scanner;
-
 class Checker implements Comparator {
     public int compare(Object o1, Object o2) {
         Player p1 = (Player) o1;
