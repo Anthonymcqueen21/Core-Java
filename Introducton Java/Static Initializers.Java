@@ -1,6 +1,5 @@
 static int B,H;
 static boolean flag;
-
 static {
    Scanner cin=new Scanner(System.in);
    B=cin.nextInt();
