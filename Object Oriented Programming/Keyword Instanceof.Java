@@ -1,9 +1,7 @@
 import java.util.*;
-
 class Student{}
 class Rockstar{}
 class Hacker{}
-
 public class InstanceOFTutorial {
     static String count(ArrayList myList) {
        int a = 0,b = 0,c = 0;
@@ -19,7 +17,6 @@ public class InstanceOFTutorial {
        String ret = Integer.toString(a)+ " " + Integer.toString(b)+" "+ Integer.toString(c);
        return ret;
    }
-   
    public static void main(String []args) {
        ArrayList mylist = new ArrayList();
        Scanner sc = new Scanner(System.in);
