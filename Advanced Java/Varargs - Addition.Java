@@ -12,7 +12,6 @@ class Add {
               sb.append("+");
           }
           sb.append(number);
-          
           sum += number;
        }
        sb.append("=" + sum);
